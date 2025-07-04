@@ -5,12 +5,12 @@ This project implements a modular, object-oriented framework for pricing financi
 ---
 
 ## 🗂️ Project Structure
-
+```
 ├── models.py # Include Binomial model environment class with tree parameters
 ├── options.py # Classes to implement pricing for European, American, and Barrier options
 ├── README.md # Project documentation
 └── .gitignore # Ignore compiled Python files, cache, and checkpoints
-
+```
 ---
 
 ## ✨ Features
