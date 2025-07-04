@@ -5,7 +5,7 @@ This project implements a modular, object-oriented framework for pricing financi
 ---
 
 ## 🗂️ Project Structure
-.
+
 ├── models.py # Include Binomial model environment class with tree parameters
 ├── options.py # Classes to implement pricing for European, American, and Barrier options
 ├── README.md # Project documentation
@@ -100,10 +100,4 @@ print(f"European call price: {eu_price:.5f} $")
 print(f"American put price: {us_price:.5f} $")
 print(f"Barrier {barrier_type} {option_type} price: {b_price:.5f} $")
 ```
-**Output:**
-{% highlight text %}
-European call price: 10.14574 $
-American put price: 4.65459 $
-Barrier up-and-out call price: 4.00027 $
-{% endhighlight %}
 
